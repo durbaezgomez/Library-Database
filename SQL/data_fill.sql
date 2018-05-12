@@ -164,3 +164,29 @@ insert into Pracownicy (pracownik_id, imie, nazwisko) values (7, 'Kariotta', 'Pu
 insert into Pracownicy (pracownik_id, imie, nazwisko) values (8, 'Tomi', 'Presslie');
 insert into Pracownicy (pracownik_id, imie, nazwisko) values (9, 'Haley', 'Antonetti');
 insert into Pracownicy (pracownik_id, imie, nazwisko) values (10, 'Costanza', 'Ettles');
+
+-- PRACOWNICY DETAILS
+
+insert into PracownicyDetails (pracownik_id, ulica, miasto, kod_poczt, telefon, adres_mail) values (1, 'Wayridge', 'Patos de Minas', '38700-000', '713389234', 'rpolly0@trellian.com');
+insert into PracownicyDetails (pracownik_id, ulica, miasto, kod_poczt, telefon, adres_mail) values (2, 'Spohn', 'Acherítou', '23-121', '326368287', 'melbourne1@japanpost.jp');
+insert into PracownicyDetails (pracownik_id, ulica, miasto, kod_poczt, telefon, adres_mail) values (3, 'Alpine', 'Wolofeo', '23432', '595478386', 'apetrou2@princeton.edu');
+insert into PracownicyDetails (pracownik_id, ulica, miasto, kod_poczt, telefon, adres_mail) values (4, 'Summer Ridge', 'Vysehrad', '181 00', '462395965', 'mvolette3@opensource.org');
+insert into PracownicyDetails (pracownik_id, ulica, miasto, kod_poczt, telefon, adres_mail) values (5, 'Lerdahl', 'San Fernando', '8711', '845823560', 'mkitney4@e-recht24.de');
+insert into PracownicyDetails (pracownik_id, ulica, miasto, kod_poczt, telefon, adres_mail) values (6, 'Amoth', 'Lower Hutt', '5042', '634907019', 'mvaggs5@posterous.com');
+insert into PracownicyDetails (pracownik_id, ulica, miasto, kod_poczt, telefon, adres_mail) values (7, 'Kings', 'Maubara', '643-765', '902150678', 'mmilkeham6@arstechnica.com');
+insert into PracownicyDetails (pracownik_id, ulica, miasto, kod_poczt, telefon, adres_mail) values (8, 'Gerald', 'Gradizhsk', '26432-64', '246939290', 'rhogbin7@1und1.de');
+insert into PracownicyDetails (pracownik_id, ulica, miasto, kod_poczt, telefon, adres_mail) values (9, 'Harper', 'Houston', '77070', '281679936', 'awyer8@theguardian.com');
+insert into PracownicyDetails (pracownik_id, ulica, miasto, kod_poczt, telefon, adres_mail) values (10, 'Tony', 'Tres Arroyos', '6550', '193540817', 'nhutcheons9@marketwatch.com');
+
+-- GODZINY PRACY
+
+insert into GodzinyPracy (data, pracownik_id, pracownik_id2) values ('12/04/2018', 2, 8);
+insert into GodzinyPracy (data, pracownik_id, pracownik_id2) values ('18/01/2018', 1, 6);
+insert into GodzinyPracy (data, pracownik_id, pracownik_id2) values ('09/09/2017', 5, 6);
+insert into GodzinyPracy (data, pracownik_id, pracownik_id2) values ('01/07/2017', 1, 9);
+insert into GodzinyPracy (data, pracownik_id, pracownik_id2) values ('16/05/2018', 4, 8);
+insert into GodzinyPracy (data, pracownik_id, pracownik_id2) values ('05/01/2018', 3, 10);
+insert into GodzinyPracy (data, pracownik_id, pracownik_id2) values ('24/01/2018', 1, 7);
+insert into GodzinyPracy (data, pracownik_id, pracownik_id2) values ('26/05/2018', 2, 6);
+insert into GodzinyPracy (data, pracownik_id, pracownik_id2) values ('20/12/2017', 4, 10);
+insert into GodzinyPracy (data, pracownik_id, pracownik_id2) values ('21/08/2017', 3, 7);
