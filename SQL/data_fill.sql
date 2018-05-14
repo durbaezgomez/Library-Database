@@ -13,39 +13,6 @@ SET IDENTITY_INSERT WejsciaOnline ON
 SET IDENTITY_INSERT Wypozyczenia ON
 SET IDENTITY_INSERT Zamowienia ON
 
--- KRAJE
-
-insert into Kraje (kraj_id, nazwa) values (1, 'Indonesia');
-insert into Kraje (kraj_id, nazwa) values (2, 'New Zealand');
-insert into Kraje (kraj_id, nazwa) values (3, 'Serbia');
-insert into Kraje (kraj_id, nazwa) values (4, 'Portugal');
-insert into Kraje (kraj_id, nazwa) values (5, 'Peru');
-insert into Kraje (kraj_id, nazwa) values (6, 'Yemen');
-insert into Kraje (kraj_id, nazwa) values (7, 'Finland');
-insert into Kraje (kraj_id, nazwa) values (8, 'Vietnam');
-insert into Kraje (kraj_id, nazwa) values (9, 'Indonesia');
-insert into Kraje (kraj_id, nazwa) values (10, 'Ghana');
-insert into Kraje (kraj_id, nazwa) values (11, 'China');
-insert into Kraje (kraj_id, nazwa) values (12, 'France');
-insert into Kraje (kraj_id, nazwa) values (13, 'Latvia');
-insert into Kraje (kraj_id, nazwa) values (14, 'Panama');
-insert into Kraje (kraj_id, nazwa) values (15, 'Croatia');
-insert into Kraje (kraj_id, nazwa) values (16, 'Denmark');
-insert into Kraje (kraj_id, nazwa) values (17, 'Indonesia');
-insert into Kraje (kraj_id, nazwa) values (18, 'South Korea');
-insert into Kraje (kraj_id, nazwa) values (19, 'Malta');
-insert into Kraje (kraj_id, nazwa) values (20, 'Thailand');
-insert into Kraje (kraj_id, nazwa) values (21, 'Brazil');
-insert into Kraje (kraj_id, nazwa) values (22, 'Sweden');
-insert into Kraje (kraj_id, nazwa) values (23, 'France');
-insert into Kraje (kraj_id, nazwa) values (24, 'Russia');
-insert into Kraje (kraj_id, nazwa) values (25, 'Greece');
-insert into Kraje (kraj_id, nazwa) values (26, 'Mauritius');
-insert into Kraje (kraj_id, nazwa) values (27, 'China');
-insert into Kraje (kraj_id, nazwa) values (28, 'Cameroon');
-insert into Kraje (kraj_id, nazwa) values (29, 'France');
-insert into Kraje (kraj_id, nazwa) values (30, 'Pakistan');
-
 -- AUTORZY
 
 insert into Autorzy (autor_id, imie, nazwisko, kraj_id) values (1, 'Elset', 'Dash', 25);
@@ -98,6 +65,52 @@ insert into Autorzy (autor_id, imie, nazwisko, kraj_id) values (47, 'Eddy', 'Ske
 insert into Autorzy (autor_id, imie, nazwisko, kraj_id) values (48, 'Hobard', 'Doul', 13);
 insert into Autorzy (autor_id, imie, nazwisko, kraj_id) values (49, 'Sandye', 'Pachmann', 17);
 insert into Autorzy (autor_id, imie, nazwisko, kraj_id) values (50, 'Nicolea', 'Resun', 29);
+
+-- GODZINY PRACY
+
+insert into GodzinyPracy (data, pracownik_id, pracownik_id2) values ('12/04/2018', 2, 8);
+insert into GodzinyPracy (data, pracownik_id, pracownik_id2) values ('18/01/2018', 1, 6);
+insert into GodzinyPracy (data, pracownik_id, pracownik_id2) values ('09/09/2017', 5, 6);
+insert into GodzinyPracy (data, pracownik_id, pracownik_id2) values ('01/07/2017', 1, 9);
+insert into GodzinyPracy (data, pracownik_id, pracownik_id2) values ('16/05/2018', 4, 8);
+insert into GodzinyPracy (data, pracownik_id, pracownik_id2) values ('05/01/2018', 3, 10);
+insert into GodzinyPracy (data, pracownik_id, pracownik_id2) values ('24/01/2018', 1, 7);
+insert into GodzinyPracy (data, pracownik_id, pracownik_id2) values ('26/05/2018', 2, 6);
+insert into GodzinyPracy (data, pracownik_id, pracownik_id2) values ('20/12/2017', 4, 10);
+insert into GodzinyPracy (data, pracownik_id, pracownik_id2) values ('21/08/2017', 3, 7);
+
+-- KRAJE
+
+insert into Kraje (kraj_id, nazwa) values (1, 'Indonesia');
+insert into Kraje (kraj_id, nazwa) values (2, 'New Zealand');
+insert into Kraje (kraj_id, nazwa) values (3, 'Serbia');
+insert into Kraje (kraj_id, nazwa) values (4, 'Portugal');
+insert into Kraje (kraj_id, nazwa) values (5, 'Peru');
+insert into Kraje (kraj_id, nazwa) values (6, 'Yemen');
+insert into Kraje (kraj_id, nazwa) values (7, 'Finland');
+insert into Kraje (kraj_id, nazwa) values (8, 'Vietnam');
+insert into Kraje (kraj_id, nazwa) values (9, 'Indonesia');
+insert into Kraje (kraj_id, nazwa) values (10, 'Ghana');
+insert into Kraje (kraj_id, nazwa) values (11, 'China');
+insert into Kraje (kraj_id, nazwa) values (12, 'France');
+insert into Kraje (kraj_id, nazwa) values (13, 'Latvia');
+insert into Kraje (kraj_id, nazwa) values (14, 'Panama');
+insert into Kraje (kraj_id, nazwa) values (15, 'Croatia');
+insert into Kraje (kraj_id, nazwa) values (16, 'Denmark');
+insert into Kraje (kraj_id, nazwa) values (17, 'Indonesia');
+insert into Kraje (kraj_id, nazwa) values (18, 'South Korea');
+insert into Kraje (kraj_id, nazwa) values (19, 'Malta');
+insert into Kraje (kraj_id, nazwa) values (20, 'Thailand');
+insert into Kraje (kraj_id, nazwa) values (21, 'Brazil');
+insert into Kraje (kraj_id, nazwa) values (22, 'Sweden');
+insert into Kraje (kraj_id, nazwa) values (23, 'France');
+insert into Kraje (kraj_id, nazwa) values (24, 'Russia');
+insert into Kraje (kraj_id, nazwa) values (25, 'Greece');
+insert into Kraje (kraj_id, nazwa) values (26, 'Mauritius');
+insert into Kraje (kraj_id, nazwa) values (27, 'China');
+insert into Kraje (kraj_id, nazwa) values (28, 'Cameroon');
+insert into Kraje (kraj_id, nazwa) values (29, 'France');
+insert into Kraje (kraj_id, nazwa) values (30, 'Pakistan');
 
 -- KSIAZKI
 
@@ -152,6 +165,19 @@ insert into Ksiazki (ksiazka_id, tytul, tytul2, rok_wydania, autor_id, wydawnict
 insert into Ksiazki (ksiazka_id, tytul, tytul2, rok_wydania, autor_id, wydawnictwo, kraj_id, jezyk, numer_wydania, stawka) values (49, 'Lady Vengeance (Sympathy for Lady Vengeance)', 'Tempest, The', 1998, 3, 'Skilith', 15, 'Somali', 2, 4.95);
 insert into Ksiazki (ksiazka_id, tytul, tytul2, rok_wydania, autor_id, wydawnictwo, kraj_id, jezyk, numer_wydania, stawka) values (50, 'Bunker, The', 'Going Clear: Scientology', 2009, 2, 'Oozz', 22, 'Assamese', 1, 2.34);
 
+-- LOGINY
+
+insert into Loginy (nr_karty, haslo) values (6128, 'KN5WqM');
+insert into Loginy (nr_karty, haslo) values (3825, 'bcmlexNnclb9');
+insert into Loginy (nr_karty, haslo) values (6613, 'kFySlG3a0t0F');
+insert into Loginy (nr_karty, haslo) values (5000, 'xe3omjfwSO');
+insert into Loginy (nr_karty, haslo) values (7779, 'FRk9BevY');
+insert into Loginy (nr_karty, haslo) values (2474, 'koWJmx');
+insert into Loginy (nr_karty, haslo) values (8423, '0jG3eV9J2W');
+insert into Loginy (nr_karty, haslo) values (3377, 'OMJ7SXoB3q');
+insert into Loginy (nr_karty, haslo) values (7928, '96NauKOmLPjd');
+insert into Loginy (nr_karty, haslo) values (2185, 'nK85hlqGlZZv');
+
 -- PRACOWNICY
 
 insert into Pracownicy (pracownik_id, imie, nazwisko) values (1, 'Alikee', 'Turle');
@@ -178,15 +204,30 @@ insert into PracownicyDetails (pracownik_id, ulica, miasto, kod_poczt, telefon, 
 insert into PracownicyDetails (pracownik_id, ulica, miasto, kod_poczt, telefon, adres_mail) values (9, 'Harper', 'Houston', '77070', '281679936', 'awyer8@theguardian.com');
 insert into PracownicyDetails (pracownik_id, ulica, miasto, kod_poczt, telefon, adres_mail) values (10, 'Tony', 'Tres Arroyos', '6550', '193540817', 'nhutcheons9@marketwatch.com');
 
--- GODZINY PRACY
 
-insert into GodzinyPracy (data, pracownik_id, pracownik_id2) values ('12/04/2018', 2, 8);
-insert into GodzinyPracy (data, pracownik_id, pracownik_id2) values ('18/01/2018', 1, 6);
-insert into GodzinyPracy (data, pracownik_id, pracownik_id2) values ('09/09/2017', 5, 6);
-insert into GodzinyPracy (data, pracownik_id, pracownik_id2) values ('01/07/2017', 1, 9);
-insert into GodzinyPracy (data, pracownik_id, pracownik_id2) values ('16/05/2018', 4, 8);
-insert into GodzinyPracy (data, pracownik_id, pracownik_id2) values ('05/01/2018', 3, 10);
-insert into GodzinyPracy (data, pracownik_id, pracownik_id2) values ('24/01/2018', 1, 7);
-insert into GodzinyPracy (data, pracownik_id, pracownik_id2) values ('26/05/2018', 2, 6);
-insert into GodzinyPracy (data, pracownik_id, pracownik_id2) values ('20/12/2017', 4, 10);
-insert into GodzinyPracy (data, pracownik_id, pracownik_id2) values ('21/08/2017', 3, 7);
+-- URLOPY
+
+insert into Urlopy (urlop_id, pracownik_id, od_kiedy, do_kiedy) values (1, 3, '08/05/2017', '27/06/2017');
+insert into Urlopy (urlop_id, pracownik_id, od_kiedy, do_kiedy) values (2, 1, '04/06/2017', '28/07/2017');
+insert into Urlopy (urlop_id, pracownik_id, od_kiedy, do_kiedy) values (3, 8, '06/08/2017', '14/09/2017');
+insert into Urlopy (urlop_id, pracownik_id, od_kiedy, do_kiedy) values (4, 3, '16/08/2017', '27/09/2017');
+insert into Urlopy (urlop_id, pracownik_id, od_kiedy, do_kiedy) values (5, 4, '27/05/2017', '07/06/2017');
+insert into Urlopy (urlop_id, pracownik_id, od_kiedy, do_kiedy) values (6, 10, '17/08/2017', '02/09/2017');
+insert into Urlopy (urlop_id, pracownik_id, od_kiedy, do_kiedy) values (7, 5, '27/12/2017', '06/01/2018');
+insert into Urlopy (urlop_id, pracownik_id, od_kiedy, do_kiedy) values (8, 2, '07/06/2017', '12/06/2017');
+insert into Urlopy (urlop_id, pracownik_id, od_kiedy, do_kiedy) values (9, 2, '16/08/2017', '01/09/2017');
+insert into Urlopy (urlop_id, pracownik_id, od_kiedy, do_kiedy) values (10, 9, '07/07/2017', '28/08/2017');
+
+-- UZYTKOWNICY
+
+insert into Uzytkownicy (nr_karty, imie, nazwisko, od_kiedy, telefon, adres_mail) values (6128, 'Maïlys', 'McGaw', '11/05/2017', 947228074, 'dmcgaw0@amazon.co.jp');
+insert into Uzytkownicy (nr_karty, imie, nazwisko, od_kiedy, telefon, adres_mail) values (3825, 'Anaël', 'Philpott', '24/04/2017', 241963444, 'mphilpott1@example.com');
+insert into Uzytkownicy (nr_karty, imie, nazwisko, od_kiedy, telefon, adres_mail) values (6613, 'Jú', 'Shevels', '21/02/2017', 264957985, 'jshevels2@technorati.com');
+insert into Uzytkownicy (nr_karty, imie, nazwisko, od_kiedy, telefon, adres_mail) values (5000, 'Göran', 'Hexham', '07/05/2017', 475376177, 'ghexham3@nyu.edu');
+insert into Uzytkownicy (nr_karty, imie, nazwisko, od_kiedy, telefon, adres_mail) values (7779, 'Lorène', 'Hallawell', '07/09/2017', 589217604, 'ehallawell4@addtoany.com');
+insert into Uzytkownicy (nr_karty, imie, nazwisko, od_kiedy, telefon, adres_mail) values (2474, 'Andréanne', 'Casali', '29/07/2017', 239667002, 'rcasali5@ifeng.com');
+insert into Uzytkownicy (nr_karty, imie, nazwisko, od_kiedy, telefon, adres_mail) values (8423, 'Eliès', 'Antram', '13/02/2017', 590103643, 'aantram6@pcworld.com');
+insert into Uzytkownicy (nr_karty, imie, nazwisko, od_kiedy, telefon, adres_mail) values (3377, 'Almérinda', 'Brenstuhl', '30/09/2017', 512634125, 'sbrenstuhl7@topsy.com');
+insert into Uzytkownicy (nr_karty, imie, nazwisko, od_kiedy, telefon, adres_mail) values (7928, 'Ráo', 'Ashley', '29/04/2017', 772851619, 'rashley8@hhs.gov');
+insert into Uzytkownicy (nr_karty, imie, nazwisko, od_kiedy, telefon, adres_mail) values (2185, 'Yáo', 'Danigel', '29/03/2017', 729408318, 'tdanigel9@samsung.com');
+
